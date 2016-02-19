@@ -23,7 +23,8 @@ public class OptimisticPlayer extends DraughtsPlayer {
         return moves.get(0);
     }
 
-    
-    //Dit is even wat vet zinloos commentaar
-    
+    @Override
+    public Integer getValue() {
+        return 0;
+    }
 }
