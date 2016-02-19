@@ -22,7 +22,9 @@ public class OptimisticPlayer extends DraughtsPlayer {
         List<Move> moves = s.getMoves();
         return moves.get(0);
     }
-
+    
+    // Dit is mijn experimentele feature
+    
     @Override
     public Integer getValue() {
         return 0;
