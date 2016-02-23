@@ -24,7 +24,7 @@ public class OptimisticPlayer extends DraughtsPlayer {
     }
     
   
-  //kaas is lekker  
+   
     @Override
     public Integer getValue() {
         return 0;
